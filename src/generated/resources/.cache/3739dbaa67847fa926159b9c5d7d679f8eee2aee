@@ -1,4 +1,4 @@
-// 1.21.1	2024-09-02T16:43:19.5356139	Tags for minecraft:item mod id undergarden
+// 1.21.1	2024-12-09T19:31:54.8309258	Tags for minecraft:item mod id undergarden
 9a80c4f0b8dd860c0f3158230031315d39247adf data/c/tags/item/armors.json
 4d669c1b706cbcc4bf69d6aaa0251fd496615b20 data/c/tags/item/bones.json
 3cc6756bdd112f7d879becff6fe72e2e016b96c4 data/c/tags/item/cobblestones.json
@@ -24,6 +24,7 @@ f385a55d8d95c1a15c0b1e2ba48698f9ea5f9aaa data/c/tags/item/ingots.json
 3a979137e8bf5feda9cef02fbe6c413e20fc6314 data/c/tags/item/ingots/regalium.json
 74c7bd2831974a804ebdf0ca9232120f5b482988 data/c/tags/item/ingots/utherium.json
 3fabf0f007d636dfa1860e105858b7066ed85dd4 data/c/tags/item/mushrooms.json
+a27ba544ecd7efd35bae2b2964c2ecb8795fe652 data/c/tags/item/music_discs.json
 bd2513bcec1fb79d0d217d4209833e9d59885cda data/c/tags/item/nuggets.json
 e45d48f10b5f88c8f293a49eed1457cacd96fcbd data/c/tags/item/nuggets/cloggrum.json
 c2cefd0a2e928f66b7ba644fc9edef72346f3c18 data/c/tags/item/nuggets/forgotten_metal.json
