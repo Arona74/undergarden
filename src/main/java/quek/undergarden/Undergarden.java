@@ -18,6 +18,7 @@ import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.server.ServerLifecycleHooks;
+import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 import quek.undergarden.client.UndergardenClient;
 import quek.undergarden.data.*;
@@ -102,9 +103,10 @@ public class Undergarden {
 		generator.addProvider(event.includeClient(), new UGEnchantmentTags(output, lookupProvider, helper));
 	}
 
+	@Nullable
 	public static RegistryAccess registryAccessStatic() {
 		final MinecraftServer currentServer = ServerLifecycleHooks.getCurrentServer();
-		if(currentServer != null)
+		if (currentServer != null)
 			return currentServer.registryAccess();
 		else
 			return UndergardenClient.registryAccess();
