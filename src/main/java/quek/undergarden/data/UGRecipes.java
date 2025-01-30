@@ -541,18 +541,23 @@ public class UGRecipes extends UGRecipeProvider {
 
 		smeltingRecipe(UGItems.DWELLER_STEAK.get(), UGItems.RAW_DWELLER_MEAT.get(), 0.35F).save(consumer, name("smelt_dweller_meat"));
 		smokingRecipe(UGItems.DWELLER_STEAK.get(), UGItems.RAW_DWELLER_MEAT.get(), 0.35F).save(consumer, name("smoke_dweller_meat"));
+		campfireRecipe(UGItems.DWELLER_STEAK.get(), UGItems.RAW_DWELLER_MEAT.get(), 0.35F).save(consumer, name("campfire_dweller_meat"));
 
 		smeltingRecipe(UGItems.COOKED_GWIBLING.get(), UGItems.RAW_GWIBLING.get(), 0.35F).save(consumer, name("smelt_gwibling"));
 		smokingRecipe(UGItems.COOKED_GWIBLING.get(), UGItems.RAW_GWIBLING.get(), 0.35F).save(consumer, name("smoke_gwibling"));
+		campfireRecipe(UGItems.COOKED_GWIBLING.get(), UGItems.RAW_GWIBLING.get(), 0.35F).save(consumer, name("campfire_gwibling"));
 
 		smeltingRecipe(UGItems.GLOOMPER_LEG.get(), UGItems.RAW_GLOOMPER_LEG.get(), 0.35F).save(consumer, name("smelt_gloomper_leg"));
 		smokingRecipe(UGItems.GLOOMPER_LEG.get(), UGItems.RAW_GLOOMPER_LEG.get(), 0.35F).save(consumer, name("smoke_gloomper_leg"));
+		campfireRecipe(UGItems.GLOOMPER_LEG.get(), UGItems.RAW_GLOOMPER_LEG.get(), 0.35F).save(consumer, name("campfire_gloomper_leg"));
 
 		smeltingRecipe(Items.DRIED_KELP, UGItems.GLITTERKELP.get(), 0.1F).save(consumer, name("smelt_glitterkelp"));
 		smokingRecipe(Items.DRIED_KELP, UGItems.GLITTERKELP.get(), 0.1F).save(consumer, name("smoke_glitterkelp"));
+		campfireRecipe(Items.DRIED_KELP, UGItems.GLITTERKELP.get(), 0.1F).save(consumer, name("campfire_glitterkelp"));
 
 		smeltingRecipe(UGItems.ROASTED_UNDERBEANS.get(), UGItems.UNDERBEANS.get(), 0.35F).save(consumer, name("smelt_underbeans"));
 		smokingRecipe(UGItems.ROASTED_UNDERBEANS.get(), UGItems.UNDERBEANS.get(), 0.35F).save(consumer, name("smoke_underbeans"));
+		campfireRecipe(UGItems.ROASTED_UNDERBEANS.get(), UGItems.UNDERBEANS.get(), 0.35F).save(consumer, name("campfire_underbeans"));
 
 		depthrockStonecutting(UGBlocks.CHISELED_DEPTHROCK_BRICKS.get()).save(consumer, name("chiseled_depthrock_bricks_stonecutting"));
 		depthrockStonecutting(UGBlocks.DEPTHROCK_BRICK_SLAB.get(), 2).save(consumer, name("depthrock_brick_slab_stonecutting"));
