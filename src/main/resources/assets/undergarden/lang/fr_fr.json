@@ -531,7 +531,7 @@
   "subtitles.item.slingshot.shoot": "Tir de Lance-pierre",
   "tooltip.undergarden.cloggrum_boots": "Bave de Scintillant ne vous ralentit plus lorsque portées.",
   "tooltip.undergarden.forgotten_tool": "Mine les blocs de l'Undergarden 50% plus vite.",
-  "tooltip.undergarden.forgotten_weapon": "Inflige 1.5x de dégâts aux entités d'Undergarden qui ne sont pas des boss.",
+  "tooltip.undergarden.forgotten_weapon": "Inflige 50% de dégâts supplémentaires aux entités de l'Undergarden qui ne sont pas des boss.",
   "tooltip.undergarden.froststeel_weapon": "Ralentit les cibles.",
   "tooltip.undergarden.slingshot_ammo": "Peut être utilisé comme munitions du Lance-pierre.",
   "tooltip.undergarden.utherium_weapon": "Inflige 1.5x de dégâts aux Engeances de la putréfaction.",
